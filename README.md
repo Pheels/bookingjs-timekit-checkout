@@ -6,10 +6,11 @@ simpy edited so submitting the form spawns a stripe checkout window that must be
 
 i use this with a webtask as the backend (attached).
 
-simply import booking.js and checkout.js as follows:
-
-
-
+simply import bookingjs and stripe checkout as follows:
+```
+<script type="text/javascript" src="https://rawgit.com/Pheels/bookingjs/master/dist/booking.js" defer></script>
+<script src="https://checkout.stripe.com/checkout.js" defer></script>
+```
 
 feel free to message me if theres any issues.
 
